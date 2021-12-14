@@ -20,16 +20,11 @@ struct ContentView: View {
                 .foregroundColor(.red)
                 .padding(.vertical, 50)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-            
-//            SceneView(scene: scene, pointOfView: nil, options: [])
-            
-//            MySceneView()
-//                .background(BackgroundClearView())
-
 
             VStack {
                 SceneView(scene: scene, pointOfView: nil, options: [.allowsCameraControl, .temporalAntialiasingEnabled, .autoenablesDefaultLighting])
                     .frame(maxWidth: 200, maxHeight: 200)
+
                 
                 SpriteView(scene: SpritekitScene(size:CGSize(width: 1, height: 1)), options: [.allowsTransparency])
                     .frame(maxWidth: 200, maxHeight: 200)

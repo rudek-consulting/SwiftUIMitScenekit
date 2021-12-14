@@ -15,15 +15,14 @@ class SpritekitScene: SKScene {
              
         /// Scenekit-Scene laden
         let scnScene = SCNScene(named: "3d.scnassets/mainscene.scn")!
-
+        
         /// in SpriteKit einfügen
         let node = SK3DNode(viewportSize: CGSize(width: 1, height: 1))
         node.scnScene = scnScene
         node.position.x = 0.5
         node.position.y = 0.5
         node.autoenablesDefaultLighting = true
-        node.autoenablesDefaultLighting = true
-
+        
         /// Kamera suchen und pointOfView setzen
         let cameraNode = scnScene.rootNode.childNode(withName: "camera", recursively: false)!
         node.pointOfView = cameraNode
