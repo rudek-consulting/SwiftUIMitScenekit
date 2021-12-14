@@ -11,6 +11,9 @@
 		A73368272767530F00929925 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73368262767530F00929925 /* ContentView.swift */; };
 		A73368292767531000929925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73368282767531000929925 /* Assets.xcassets */; };
 		A733682C2767531000929925 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A733682B2767531000929925 /* Preview Assets.xcassets */; };
+		A7336833276764F500929925 /* 3d.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A7336832276764F500929925 /* 3d.scnassets */; };
+		A73368352767660B00929925 /* SceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73368342767660B00929925 /* SceneView.swift */; };
+		A73368372767895B00929925 /* SpritekitScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73368362767895B00929925 /* SpritekitScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		A73368262767530F00929925 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A73368282767531000929925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A733682B2767531000929925 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7336832276764F500929925 /* 3d.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = 3d.scnassets; sourceTree = "<group>"; };
+		A73368342767660B00929925 /* SceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneView.swift; sourceTree = "<group>"; };
+		A73368362767895B00929925 /* SpritekitScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritekitScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				A73368242767530F00929925 /* SwiftUIMitScenekitApp.swift */,
 				A73368262767530F00929925 /* ContentView.swift */,
+				A73368362767895B00929925 /* SpritekitScene.swift */,
+				A73368342767660B00929925 /* SceneView.swift */,
+				A7336832276764F500929925 /* 3d.scnassets */,
 				A73368282767531000929925 /* Assets.xcassets */,
 				A733682A2767531000929925 /* Preview Content */,
 			);
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7336833276764F500929925 /* 3d.scnassets in Resources */,
 				A733682C2767531000929925 /* Preview Assets.xcassets in Resources */,
 				A73368292767531000929925 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73368372767895B00929925 /* SpritekitScene.swift in Sources */,
 				A73368272767530F00929925 /* ContentView.swift in Sources */,
 				A73368252767530F00929925 /* SwiftUIMitScenekitApp.swift in Sources */,
+				A73368352767660B00929925 /* SceneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
